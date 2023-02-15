@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  text-transform: capitalize;
+  background: black;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.grandfather {
+  width: 70%;
+  height: 450px;
+  background: #fff;
+  margin: auto;
+  margin-top: 100px;
+  box-sizing: border-box;
+}
+.father {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.myp {
+  
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid #18081f;
+}
+
+.title {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  display: block;
+  font-weight: bolder;
+  font-size: 15px;
+cursor: default;
+  text-align: center;
+}
+
+
+.title img {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  cursor: default;
+}
+.father2 {
+  text-align: center;
+  margin-top: 30px;
+  background: lightgray;
+  display: block;
+  
+}
+.btn{
+  position: fixed;
+  margin: 21px 430px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  background: #8d8a82;
+}
+.btn:hover{
+  scale: 90%;
+  background-color: #ffffff;
+}
+.btn a{
+ 
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+}
+.btn a:hover{
+  background-color: #fff;
+  color: #000;
+}
+.father2 a:hover{
+  
+  background-color:lightgray;
+}
+.father2 img {
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.subtitle {
+  margin-top: 10px;
+  border-bottom: 5px solid lightgray;
+  font-weight: bold;
+}
+a:hover {
+  background: lightblue;
+  color: #fff;
+}
+.downpage {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bolder;
+}
+@media (max-width: 460px) {
+  .btn{
+    margin: 21px 85px;
+    
+  }
+  botton{
+    width: 990px;
+  }
+  .btn a{
+    font-size: 16px;
+    font-weight: 300;
+
+  }
+}

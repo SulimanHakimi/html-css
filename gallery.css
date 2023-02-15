@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  text-transform: capitalize;
+  font-family: monospace;
+}
+.mm{
+  outline: none;
+}
+.login-form {
+  background: rgba(0, 0, 0, 0.3);
+  width: 350px;
+  height: 500px;
+  color: #fff;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  padding: 5px;
+  animation-name: bac;
+  animation-delay: 0;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+  background: lightblue;
+  box-shadow: 5px 10px 12px gray;
+}
+#btn {
+  margin-top: 20px;
+  margin-left: 130px;
+  border: none;
+  background: #ff5f55;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 8px;
+}
+@keyframes bac {
+  0% {
+    background: black;
+    transform: translate(0% 0%);
+  }
+  50% {
+    background: linear-gradient(to bottom, black, red);
+    transform: translate(50% 50%);
+  }
+  100% {
+    background: linear-gradient(to bottom, black, red, green);
+    transform: translate(100% 100%);
+  }
+}
+
+
+#copy {
+  font-weight: bolder;
+  margin-left: 110px;
+  font-size: larger;
+}
