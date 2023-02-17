@@ -35,6 +35,7 @@ body {
   background: #ff5f55;
   font-size: 18px;
   padding: 5px;
+  text-decoration: none;
   border-radius: 8px;
 }
 @keyframes bac {
