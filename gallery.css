@@ -35,9 +35,12 @@ body {
   background: #ff5f55;
   font-size: 18px;
   padding: 5px;
+  
+  border-radius: 8px;
+}
+#btn a{
   text-decoration: none;
   color: #000;
-  border-radius: 8px;
 }
 @keyframes bac {
   0% {

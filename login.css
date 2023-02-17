@@ -49,6 +49,9 @@ li {
   border: none;
   border-radius: 20px;
 }
+.sp{
+  color: #c21a1a;
+}
 @media (max-width: 350px) {
   body {
     background: red;
