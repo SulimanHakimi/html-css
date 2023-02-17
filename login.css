@@ -67,6 +67,10 @@ h2{
 
 @media (orientation: portrait) {
   body {
+    
     background: yellow;
+  }
+  h2{
+    text-align: center;
   }
 }
