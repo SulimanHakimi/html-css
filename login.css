@@ -53,6 +53,7 @@ li {
   color: #c21a1a;
 }
 h2{
+  display: inline-block;
   margin-top: 150px;
   margin-bottom: 300px;
 }
