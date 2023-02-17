@@ -104,11 +104,10 @@ a:hover {
   margin-top: 15px;
   text-align: center;
   font-weight: bolder;
-  cursor: pointer;
 }
 @media (max-width: 460px) {
   .btn{
-    margin: 21px 85px;
+    margin: 21px 95px;
     
   }
   botton{
