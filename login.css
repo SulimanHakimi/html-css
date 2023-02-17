@@ -54,6 +54,7 @@ li {
 }
 h2{
   margin-top: 150px;
+  margin-bottom: 300px;
 }
 @media (max-width: 350px) {
   body {
