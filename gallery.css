@@ -6,8 +6,6 @@
 body {
   text-transform: capitalize;
   font-family: monospace;
-  background: url("./logos/bag.jpg");
-  
 }
 
 .mm{
@@ -69,11 +67,12 @@ span::selection{
   font-weight: bold;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 #copy {
   font-weight: bolder;
   margin-left: 110px;
   font-size: larger;
-}
+
 @keyframes bac {
   0% {
     background: black;
@@ -88,6 +87,3 @@ span::selection{
     transform: translate(100% 100%);
   }
 }
-
-
-
