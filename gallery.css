@@ -21,7 +21,7 @@ body {
 }
 
 .login-form {
-  background: rgba(0, 0, 0, 0.3);
+  
   width: 350px;
   height: 500px;
   color: #fff;
@@ -77,6 +77,10 @@ span::selection{
   0% {
     background: black;
     transform: translate(0% 0%);
+  }
+  15%{
+    background: black;
+    transform: translate(15% 15%);
   }
   50% {
     background: linear-gradient(to bottom, black, red);
