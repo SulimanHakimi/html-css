@@ -37,6 +37,7 @@ span {
   margin: auto;
   border: 1px solid gray;
   margin-top: 50px;
+  margin-bottom: 50px;
   padding: 5px;
   animation-name: bac;
   animation-delay: 0;
