@@ -19,11 +19,19 @@ body {
   font-weight: bold;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+label {
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+span {
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
 .login-form {
   
   width: 350px;
-  height: 500px;
+  height: 85vh;
   color: #fff;
   display: flex;
   margin: auto;
