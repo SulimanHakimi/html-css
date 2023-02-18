@@ -57,6 +57,9 @@ cursor: default;
   display: block;
   
 }
+.father2 a img::selection{
+ background-color: rgb(190, 185, 185);
+}
 .btn{
   position: fixed;
   margin: 21px 430px;

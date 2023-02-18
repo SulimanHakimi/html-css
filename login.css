@@ -4,12 +4,20 @@
   box-sizing: border-box;
 }
 body {
-  background-color: lightblue;
+ 
+}
+.home-page{
+ background: linear-gradient(to left, rgb(88,155,95),rgb(36, 131, 45),rgb(10, 134, 23),rgb(4, 163, 20));
+ background-attachment: fixed;
+ background-size: cover;
+ width: 100%;
+ height: 100vh;
 }
 
-div {
+.nav {
   text-align: center;
   width: 100%;
+  position: sticky;
   height: 40px;
   background: rgba(0, 0, 0, 0.6);
 }
@@ -54,7 +62,8 @@ li {
 }
 h2{
   text-align: center;
-  display: inline-block;
+  display: ;
+  position: relative;
   margin-top: 150px;
   margin-bottom: 300px;
 }
