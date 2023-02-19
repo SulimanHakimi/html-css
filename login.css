@@ -59,7 +59,9 @@ li {
   border: none;
   border-radius: 20px;
 }
-
+abbr{
+  text-decoration: none;
+}
 
 @media (max-width: 350px) {
   body {
