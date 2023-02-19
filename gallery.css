@@ -31,7 +31,7 @@ span {
 }
 
 .login-form {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(192, 6, 6, 0.3);
   width: 350px;
   height: 85vh;
   color: #fff;
@@ -48,7 +48,7 @@ span {
   animation-iteration-count: infinite; */
 
 
-  box-shadow: 10px 12px 5px rgba(112, 26, 69, 0.3);
+  box-shadow: 1px 12px 23px rgba(155, 14, 85, 0.3);
 }
 label {
   font-weight: 600;
