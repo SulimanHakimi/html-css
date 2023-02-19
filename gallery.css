@@ -6,12 +6,10 @@
 body {
   text-transform: capitalize;
   font-family: monospace;
-  background: url("./logos/bag.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
-.mm{
+.mm {
+  padding-left: 9px;
   outline: none;
   line-height: 30px;
   width: 250px;
@@ -21,11 +19,11 @@ body {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   font-weight: bold;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .login-form {
-  background: rgba(0, 0, 0, 0.3);
+  background-color: rgba(160, 65, 112, 0.3);
   width: 350px;
   height: 85vh;
   color: #fff;
@@ -34,36 +32,44 @@ body {
   border: 1px solid gray;
   margin-top: 50px;
   padding: 5px;
-  animation-name: bac;
+  /* animation-name: bac;
   animation-delay: 0;
   animation-timing-function: linear;
   animation-duration: 5s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; */
 
-  background: lightblue;
-  box-shadow: 3px 1px 19px rgb(190, 185, 185);
- 
+
+  box-shadow: 10px 12px 5px rgba(112, 26, 69, 0.3);
 }
-label{
+label {
   font-weight: 600;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-span{
+span {
   font-weight: 400;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-label::selection{
+label::selection {
   color: #000;
   background-color: #ffffff;
 }
-span::selection{
+span::selection {
   color: #000;
   background-color: #ffffff;
 }
-.rej::selection{
+.rej::selection {
   color: #000;
   background-color: #ffffff;
 }
+#btn:hover{
+  background-color: black;
+}
+.rej:hover{
+  color: #fff;
+  transform: translate(-150px);
+  background-color: black;
+}
+
 #btn {
   margin-top: 10px;
   margin-left: 120px;
@@ -71,22 +77,24 @@ span::selection{
   background: #800800;
   font-size: 18px;
   padding: 5px;
-  
+
   border-radius: 8px;
 }
-.rej{
+.rej {
   text-decoration: none;
   color: #000;
   font-weight: bold;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 #copy {
   font-weight: bolder;
 
   margin-left: 90px;
   font-size: larger;
 }
-@keyframes bac {
+
+/* @keyframes bac {
   0% {
     background: black;
     transform: translate(0% 0%);
@@ -99,7 +107,4 @@ span::selection{
     background: linear-gradient(to bottom, black, red, green);
     transform: translate(100% 100%);
   }
-}
-
-
-
+} */
