@@ -21,9 +21,17 @@ body {
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+label {
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+span {
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
 .login-form {
-  background-color: rgba(160, 65, 112, 0.3);
+  background: rgba(0, 0, 0, 0.3);
   width: 350px;
   height: 85vh;
   color: #fff;
@@ -31,6 +39,7 @@ body {
   margin: auto;
   border: 1px solid gray;
   margin-top: 50px;
+  margin-bottom: 50px;
   padding: 5px;
   /* animation-name: bac;
   animation-delay: 0;
@@ -98,6 +107,10 @@ span::selection {
   0% {
     background: black;
     transform: translate(0% 0%);
+  }
+  15%{
+    background: black;
+    transform: translate(15% 15%);
   }
   50% {
     background: linear-gradient(to bottom, black, red);

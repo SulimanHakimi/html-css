@@ -3,10 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-body {
 
-
-}
 
 .home-page{
   background: linear-gradient(to left, rgb(88,155,95),rgb(36, 131, 45),rgb(10, 134, 23),rgb(4, 163, 20));
@@ -16,9 +13,7 @@ body {
   height: 100vh;
  }
 
-abbr{
-  text-decoration: none;
-}
+
 
 .nav {
 
