@@ -15,9 +15,10 @@ body {
   width: 100%;
   height: 100vh;
  }
-div {
-}
 
+abbr{
+  text-decoration: none;
+}
 
 .nav {
 
@@ -49,8 +50,7 @@ a:hover {
   border-radius: 20px;
 }
 
-ul {
-}
+
 li {
   margin-top: 5px;
   display: inline-block;
@@ -64,16 +64,8 @@ li {
   border: none;
   border-radius: 20px;
 }
-.sp{
-  color: #c21a1a;
-}
-h2{
-  text-align: center;
 
-  position: relative;
-  margin-top: 150px;
-  margin-bottom: 300px;
-}
+
 @media (max-width: 350px) {
   body {
     background: red;
@@ -86,7 +78,5 @@ h2{
     
     background: yellow;
   }
-  h2{
-    text-align: center;
-  }
+ 
 }
