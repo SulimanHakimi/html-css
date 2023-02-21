@@ -5,25 +5,25 @@
 }
 body {
   text-transform: capitalize;
-  background: #0a090900;
+ background-color: #000;
   font-family: sans-serif;
   text-decoration: none;
 }
 
 .grandfather {
-  
+  border-radius: 15px;
   width: 70%;
-  height: 85vhpx;
-  background: #fff;
+  height: 69vh;
+  background: #ffffff;
   margin: auto;
   margin-top: 100px;
   
-  box-sizing: border-box;
+
 }
 .father {
   text-align: center;
   padding-top: 10px;
-  
+  justify-content: center;
 }
 
 .myp {
@@ -64,10 +64,14 @@ cursor: default;
   background-color: rgb(190, 185, 185);
  }
 .btn{
-  position: fixed;
-  margin: 21px 430px;
+  box-sizing: content-box;
+  position:relative;
+  margin: 21px 130px;
   padding: 5px 10px;
+  display:inline-block;
   cursor: pointer;
+  align-items: center;
+  justify-content: center;
   border-radius: 10px;
   background: #8d8a82;
 }
@@ -76,7 +80,7 @@ cursor: default;
   background-color: #ffffff;
 }
 .btn a{
- 
+ position: relative;
   text-decoration: none;
   color: #000;
   font-weight: bold;
@@ -111,31 +115,4 @@ a:hover {
   text-align: center;
   font-weight: bolder;
 }
-@media (max-width: 460px) {
-  .btn{
-    margin: 21px 95px;
-    
-  }
-  botton{
-    width: 990px;
-  }
-  .btn a{
-    font-size: 16px;
-    font-weight: 300;
 
-  }
-}
-@media (max-width: portrait) {
-  .btn{
-    margin: 21px 95px;
-    
-  }
-  botton{
-    width: 990px;
-  }
-  .btn a{
-    font-size: 16px;
-    font-weight: 300;
-
-  }
-}
