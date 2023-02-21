@@ -63,33 +63,7 @@ cursor: default;
 .father2 a img::selection{
   background-color: rgb(190, 185, 185);
  }
-.btn{
-  box-sizing: content-box;
-  position:relative;
-  margin: 21px 130px;
-  padding: 5px 10px;
-  display:block;
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  background: #8d8a82;
-}
-.btn:hover{
-  scale: 90%;
-  background-color: #ffffff;
-}
-.btn a{
- position: relative;
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
-  font-size: 18px;
-}
-.btn a:hover{
-  background-color: #fff;
-  color: #000;
-}
+
 .father2 a:hover{
   
   background-color:lightgray;
