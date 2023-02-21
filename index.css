@@ -64,11 +64,10 @@ cursor: default;
   background-color: rgb(190, 185, 185);
  }
 .btn{
-  box-sizing: content-box;
-  position:relative;
+  position: relative;
   margin: 21px 130px;
   padding: 5px 10px;
-  display:inline-block;
+  display:block;
   cursor: pointer;
   align-items: center;
   justify-content: center;
@@ -116,3 +115,25 @@ a:hover {
   font-weight: bolder;
 }
 
+.jn{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+  text-align: center;
+  
+}
+.jn a{
+  border: 2px solid black;
+  padding: 5px;
+  text-decoration: none;
+  color: #000;
+  border-radius: 10px;
+
+}
+.jn a:hover{
+  scale: 90%;
+  color: #fff;
+  background-color: #000;
+}
