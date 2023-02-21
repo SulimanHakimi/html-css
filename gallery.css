@@ -33,13 +33,13 @@ span {
 .login-form {
   background: rgba(192, 6, 6, 0.3);
   width: 350px;
-  height: 85vh;
+  height: 90vh;
   color: #fff;
   display: flex;
   margin: auto;
   border: 1px solid gray;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   padding: 5px;
   /* animation-name: bac;
   animation-delay: 0;
