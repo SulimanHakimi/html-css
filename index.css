@@ -160,3 +160,7 @@ a:hover {
   margin-top: 0px;
   height: 18px;
 }
+.prof a:hover{
+  color: #000;
+  background-color: #fff;
+}
