@@ -69,9 +69,9 @@ body {
   overflow: hidden;
   border-radius: 20px;
 }
-.editbtn {
-top: 80px;
-left: 66px;
+/* .editbtn {
+  top: 80px;
+  left: 66px;
   position: absolute;
   margin-left: 190px;
 }
@@ -104,7 +104,7 @@ button {
   height: 18px;
   right: 3px;
   top: 6px;
-}
+} */
 .subtitle {
   margin-top: 10px;
   border-bottom: 5px solid lightgray;
@@ -138,4 +138,25 @@ a:hover {
   scale: 90%;
   color: #fff;
   background-color: #000;
+}
+.prof {
+  position: absolute;
+}
+.prof a {
+  margin-left: 177px;
+  border: 2px solid #000;
+  padding: 5px;
+  border-radius: 15px;
+  padding-right: 13px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.prof a img {
+  position: absolute;
+  width: 15px;
+  margin-top: 0px;
+  height: 18px;
 }
