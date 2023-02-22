@@ -7,25 +7,25 @@ body {
   text-transform: capitalize;
   background-color: #000;
   font-family: sans-serif;
-  text-decoration: none;
+ 
 }
 
 .grandfather {
-  border-radius: 15px;
+  border-radius: 17px;
   width: 70%;
-  height: 85vhpx;
+  height: 72vh;
   background: #fff;
   margin: auto;
   margin-top: 75px;
 }
 .father {
+  
   text-align: center;
-  padding-top: 10px;
-  justify-content: center;
 }
 
 .myp {
-  position: relative;
+  padding-top: 10px;
+ 
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -36,24 +36,21 @@ body {
   margin-top: 5px;
   margin-bottom: 20px;
   margin-left: 0px;
-  display: block;
   font-weight: bolder;
-  font-size: 15px;
   cursor: default;
-  text-align: center;
+  
 }
 
 .title img {
   width: 20px;
   height: 20px;
-  border-radius: 10px;
   cursor: default;
 }
 .father2 {
   text-align: center;
   margin-top: 30px;
   background: lightgray;
-  display: block;
+  
 }
 .father2 a img::selection {
   background-color: rgb(182, 177, 177);
@@ -66,8 +63,7 @@ body {
   width: 60px;
   height: 60px;
   padding: 5px;
-  overflow: hidden;
-  border-radius: 20px;
+
 }
 /* .editbtn {
   top: 80px;
@@ -106,7 +102,7 @@ button {
   top: 6px;
 } */
 .subtitle {
-  margin-top: 10px;
+ 
   border-bottom: 5px solid lightgray;
   font-weight: bold;
 }
@@ -117,6 +113,7 @@ a:hover {
 .downpage {
   text-align: center;
   font-weight: bolder;
+  cursor: default;
 }
 
 .jn {
@@ -124,7 +121,7 @@ a:hover {
   margin-bottom: 30px;
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  display: block;
+ 
   text-align: center;
 }
 .jn a {
@@ -139,25 +136,32 @@ a:hover {
   color: #fff;
   background-color: #000;
 }
-.prof {
-  position: absolute;
+
+button {
+  position: sticky;
+  display: flex;
+  flex: 1;
+  left: 1070px;
+  border-radius: 30px;
+  border: none;
+  background-color: #fff;
 }
 .prof a {
-  margin-left: 190px;
-  border: 2px solid #000;
   padding: 5px;
+  background-color: #fff;
+  border: 2px solid #000;
+
   border-radius: 15px;
-  padding-right: 13px;
+  padding-right: 20px;
   text-decoration: none;
   color: #000;
   font-weight: bold;
-  font-size: 12px;
+
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .prof a img {
   position: absolute;
   width: 15px;
-  margin-top: 0px;
   height: 18px;
 }
 .prof a:hover{
