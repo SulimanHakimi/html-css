@@ -5,7 +5,7 @@
 }
 body {
   text-transform: capitalize;
- background-color: #000;
+  background-color: #000;
   font-family: sans-serif;
   text-decoration: none;
 }
@@ -17,8 +17,6 @@ body {
   background: #fff;
   margin: auto;
   margin-top: 75px;
-  
-
 }
 .father {
   text-align: center;
@@ -27,7 +25,6 @@ body {
 }
 
 .myp {
-  
   position: relative;
   width: 150px;
   height: 150px;
@@ -42,10 +39,9 @@ body {
   display: block;
   font-weight: bolder;
   font-size: 15px;
-cursor: default;
+  cursor: default;
   text-align: center;
 }
-
 
 .title img {
   width: 20px;
@@ -58,15 +54,13 @@ cursor: default;
   margin-top: 30px;
   background: lightgray;
   display: block;
-  
 }
-.father2 a img::selection{
+.father2 a img::selection {
   background-color: rgb(182, 177, 177);
- }
+}
 
-.father2 a:hover{
-  
-  background-color:lightgray;
+.father2 a:hover {
+  background-color: lightgray;
 }
 .father2 img {
   width: 60px;
@@ -74,6 +68,42 @@ cursor: default;
   padding: 5px;
   overflow: hidden;
   border-radius: 20px;
+}
+.editbtn {
+  display: grid;
+  position: absolute;
+  margin-left: 280px;
+  margin-top: 1px;
+}
+button {
+  border: 2px solid black;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 13px;
+
+  cursor: pointer;
+}
+.editbtn a {
+  text-decoration: none;
+  color: #000;
+  padding-right: 15px;
+  background-color: #fff;
+  font-weight: bolder;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.editbtn a:hover {
+  color: #000000;
+  background-color: #fff;
+}
+.editbtn a img {
+  display: block;
+  position: absolute;
+  
+  width: 20px;
+  height: 18px;
+  margin-left: 75px;
+ right: 3px;
+  top: 6px;
 }
 .subtitle {
   margin-top: 10px;
@@ -85,29 +115,26 @@ a:hover {
   color: #fff;
 }
 .downpage {
-  
   text-align: center;
   font-weight: bolder;
 }
 
-.jn{
+.jn {
   margin-top: 30px;
   margin-bottom: 30px;
   font-weight: bold;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: block;
   text-align: center;
-  
 }
-.jn a{
+.jn a {
   border: 2px solid black;
   padding: 5px;
   text-decoration: none;
   color: #000;
   border-radius: 10px;
-
 }
-.jn a:hover{
+.jn a:hover {
   scale: 90%;
   color: #fff;
   background-color: #000;
