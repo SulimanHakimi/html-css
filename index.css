@@ -61,7 +61,7 @@ cursor: default;
   
 }
 .father2 a img::selection{
-  background-color: rgb(190, 185, 185);
+  background-color: rgb(182, 177, 177);
  }
 
 .father2 a:hover{
