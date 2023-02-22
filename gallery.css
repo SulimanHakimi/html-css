@@ -33,7 +33,7 @@ span {
 .login-form {
   background: rgba(192, 6, 6, 0.3);
   width: 350px;
-  height: 90vh;
+  height: 85vh;
   color: #fff;
   display: flex;
   margin: auto;
@@ -46,7 +46,6 @@ span {
   animation-timing-function: linear;
   animation-duration: 5s;
   animation-iteration-count: infinite; */
-
 
   box-shadow: 1px 12px 23px rgba(155, 14, 85, 0.3);
 }
@@ -70,37 +69,33 @@ span::selection {
   color: #000;
   background-color: #ffffff;
 }
-#btn:hover{
+#btn:hover {
   background-color: black;
 }
-.rej:hover{
+.rej:hover {
   color: #fff;
   transform: translate(-150px);
   background-color: black;
 }
 
 #btn {
-  margin-top: 10px;
-  margin-left: 120px;
+  margin-top: 30px;
+  margin-left: 130px;
   border: none;
-  background: #800800;
+  background-color: #000;
   font-size: 18px;
   padding: 5px;
 
   border-radius: 8px;
 }
-.rej {
-  text-decoration: none;
-  color: #000;
+#btn a {
+  color: #ffffff;
+  background-color: #000;
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
-#copy {
-  font-weight: bolder;
-
-  margin-left: 90px;
-  font-size: larger;
+.rej {
+  text-decoration: none;
 }
 
 /* @keyframes bac {
